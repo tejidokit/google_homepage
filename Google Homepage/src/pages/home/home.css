@@ -51,8 +51,8 @@
 .main_container > div.search_bar {
     position: relative;
 
-    width: 800px;
-    height: 50px;
+    width: 500px;
+    height: 40px;
     background-color: white;
 
 }
@@ -84,7 +84,6 @@ div.search_bar > img.search_icon {
 .buttons {
     display: flex;
 }
-
 
 
 .footer_container {

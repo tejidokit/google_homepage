@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+
     padding-top: 5px;
     padding-right: 5px;
     padding-left: 25px;
@@ -36,7 +37,18 @@
     
 }
 
+.about {
+    display: flex;
+    
+    padding-right: 5px;
+}
 
+.store {
+    display: flex;
+
+    padding-left: 5px;
+
+}
 
 .right_top {
     background-color: green;
@@ -44,7 +56,36 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
+
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+}
+
+.gmail {
+    display: flex;
+
+    padding-right: 5px;
+}
+
+.images {
+    display: flex;
+
+    padding-right: 5px;
+}
+
+.apps_icon {
+    display: flex;
+
+    padding-right: 5px;
+}
+
+.profile_pic {
+    display: flex;
+
+    padding-right: 5px;
 }
 
 /* ####### MAIN ######## */

@@ -60,9 +60,9 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    
 
-    padding-top: 5px;
+    padding-top:  10px;
     padding-right: 5px;
     padding-left: 25px;
     padding-bottom: 5px;
@@ -85,16 +85,25 @@ svg.gb_Xe:hover path {
     fill: green;
 }
 
+.round_hover {
+
+}
+
 .gmail {
     display: flex;
+    justify-content: space-between;
 
     padding-right: 5px;
+    margin: 5px;
+    margin-right: 8px;
 }
 
 .images {
     display: flex;
 
     padding-right: 5px;
+    margin: 5px;
+    margin-right: 20px;
 }
 
 .apps_icon {
@@ -107,6 +116,7 @@ svg.gb_Xe:hover path {
     display: flex;
 
     padding-right: 5px;
+    margin: 5px;
 }
 
 /* ####### MAIN ######## */

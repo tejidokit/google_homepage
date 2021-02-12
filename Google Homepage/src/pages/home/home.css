@@ -24,8 +24,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    position: absolute;
 
+    top: 0;
+
+    width: 100%;
+
+}
+
+.nav_bar {
+    display: flex;
 }
 
 .left_top {
@@ -56,12 +64,14 @@
 }
 
 .right_top {
-    /* background-color: green; */
+    background-color: green;
 
     display: flex;
     flex-direction: row;
-    
+    justify-content: flex-end;
 
+    align-items: center;
+    
     padding-top:  10px;
     padding-right: 5px;
     padding-left: 25px;
@@ -71,10 +81,13 @@
 }
 
 svg.gb_Xe {
+    display: flex;
     opacity: 1;
 
-    height: 24px;
-    width: 24px;
+    height: 25px;
+    width: 25x;
+
+    margin-right: 15px;
 }
 
 svg.gb_Xe {
@@ -86,7 +99,7 @@ svg.gb_Xe:hover path {
 }
 
 .round_hover {
-
+    display: flex;
 }
 
 .gmail {
@@ -106,17 +119,15 @@ svg.gb_Xe:hover path {
     margin-right: 20px;
 }
 
-.apps_icon {
-    display: flex;
-
-    padding-right: 5px;
-}
-
 .profile_pic {
     display: flex;
+    align-self: center;
 
     padding-right: 5px;
-    margin: 5px;
+    /* margin: 10px; */
+    margin-top: 0px;;
+    width: 38px;
+    height: 38px;
 }
 
 /* ####### MAIN ######## */
@@ -245,7 +256,6 @@ div.inputWithIcon {
     flex-direction: row;
     justify-content: space-between;
     
-    /* margin-top: calc(100vh - 400px); */
     position: absolute;
     bottom: 0;
 
@@ -262,7 +272,6 @@ div.inputWithIcon {
 
 .advertising {
     display: flex;
-    flex-direction: row;
 }
 
 .business {

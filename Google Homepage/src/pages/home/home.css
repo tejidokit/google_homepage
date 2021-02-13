@@ -37,7 +37,6 @@
 }
 
 .left_top {
-    background-color: yellow;
 
     display: flex;
     flex-direction: row;
@@ -47,8 +46,8 @@
     
     padding-top: 5px;
     padding-right: 5px;
-    padding-left: 25px;
-    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-bottom: 12px;
     
 }
 
@@ -58,6 +57,8 @@
     padding-right: 5px;
 
     text-decoration: none;
+
+    color: black;
 }
 
 .store {
@@ -67,10 +68,11 @@
 
     text-decoration: none;
 
+    color: black;
+
 }
 
 .right_top {
-    background-color: green;
 
     display: flex;
     flex-direction: row;
@@ -82,7 +84,6 @@
     padding-right: 5px;
     padding-left: 25px;
     padding-bottom: 5px;
-
 
 }
 
@@ -117,6 +118,8 @@ svg.gb_Xe:hover path {
     margin-right: 8px;
 
     text-decoration: none;
+
+    color: black;
 }
 
 .images {
@@ -127,6 +130,8 @@ svg.gb_Xe:hover path {
     margin-right: 20px;
 
     text-decoration: none;
+
+    color: black;
 }
 
 .profile_pic {
@@ -134,7 +139,8 @@ svg.gb_Xe:hover path {
     align-self: center;
 
     padding-right: 5px;
-    margin-top: 0px;;
+    margin-top: 0px;
+    margin-bottom: 7px;
     width: 38px;
     height: 38px;
 }
@@ -274,27 +280,38 @@ div.inputWithIcon {
 }
 
 .bottom_left {
-    background-color: orange;
 
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    
 }
 
 .advertising {
     display: flex;
+
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .business {
     display: flex;
+
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .how_search_works {
     display: flex;
+
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .bottom_right {
-    background-color: blue;
 
     display: flex;
     flex-direction: row;
@@ -303,12 +320,24 @@ div.inputWithIcon {
 
 .privacy {
     display: flex;
+
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .terms {
     display: flex;
+
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .settings {
     display: flex;
+
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }

@@ -145,6 +145,14 @@ svg.gb_Xe:hover path {
     height: 38px;
 }
 
+.profile_pic:hover {
+    /* box-shadow: 0px 0px 7px 0 rgba(0,0,0,0.1), 
+                0px 0px 7px 0 rgba(0,0,0,0.1); */
+
+    box-shadow: grey;
+    
+  }
+
 /* ####### MAIN ######## */
 
 .main_container {

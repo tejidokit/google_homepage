@@ -107,7 +107,18 @@ svg.gb_Xe:hover path {
 
 .round_hover {
     display: flex;
+
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;
+    
+    cursor: pointer;
 }
+
+
 
 .gmail {
     display: flex;

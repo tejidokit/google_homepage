@@ -101,10 +101,6 @@ svg.gb_Xe {
     fill: #4c4c4c;
 }
 
-svg.gb_Xe:hover path {
-    fill: green;
-}
-
 
 /* ######    HOVER    ######## */
 
@@ -138,16 +134,26 @@ svg.gb_Xe:hover {
     color: #41ab6b;
 } */
 
-svg.gb_Xe:hover {
-    -moz-border-radius-topleft: 20px;
-    -moz-border-radius-topright: 10px;
-    -moz-border-radius-bottomright: 0px;
-    -moz-border-radius-bottomleft: 0px;
-    -webkit-border-radius: 10px 10px 0px 0px;
-    border-radius: 10px 10px 0px 0px;
-    background-color: grey;
-}
 
+svg.gb_Xe:hover {
+
+    border-radius: 50%;
+    background-color: grey;
+    width: 25px;
+    height: 25px;
+    
+} 
+
+
+
+/* .round_hover:hover {
+    
+    border-radius: 50%;
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    
+} */
 
 
 

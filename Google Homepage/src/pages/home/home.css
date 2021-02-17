@@ -319,6 +319,8 @@ div.inputWithIcon {
     margin-top: 20px;
 
     color: #2d2d2d;
+
+    cursor: pointer;
 }
 
 .business {
@@ -330,6 +332,8 @@ div.inputWithIcon {
     margin-top: 20px;
 
     color: #2d2d2d;
+
+    cursor: pointer;
 }
 
 .how_search_works {
@@ -341,6 +345,8 @@ div.inputWithIcon {
     margin-top: 20px;
 
     color: #2d2d2d;
+
+    cursor: pointer;
 }
 
 .bottom_right {
@@ -358,6 +364,8 @@ div.inputWithIcon {
     margin: 15px;
     margin-bottom: 0px;
     margin-top: 20px;
+
+    cursor: pointer;
 }
 
 .terms {
@@ -366,6 +374,8 @@ div.inputWithIcon {
     margin: 15px;
     margin-bottom: 0px;
     margin-top: 20px;
+
+    cursor: pointer;
 }
 
 .settings {
@@ -374,4 +384,6 @@ div.inputWithIcon {
     margin: 15px;
     margin-bottom: 0px;
     margin-top: 20px;
+
+    cursor: pointer;
 }

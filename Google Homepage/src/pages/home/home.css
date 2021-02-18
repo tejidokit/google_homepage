@@ -61,6 +61,10 @@
     color:#2d2d2d;
 }
 
+.about:hover {
+    text-decoration: underline;
+}
+
 .store {
     display: flex;
 
@@ -70,6 +74,10 @@
 
     color: #2d2d2d;
 
+}
+
+.store:hover {
+    text-decoration: underline;
 }
 
 .right_top {
@@ -133,6 +141,10 @@ svg.gb_Xe:hover {
     color: #2d2d2d;
 }
 
+.gmail:hover {
+    text-decoration: underline;
+}
+
 .images {
     display: flex;
 
@@ -143,6 +155,10 @@ svg.gb_Xe:hover {
     text-decoration: none;
 
     color: #2d2d2d;
+}
+
+.images:hover {
+    text-decoration: underline;
 }
 
 .profile_pic {
@@ -318,9 +334,13 @@ div.inputWithIcon {
     margin-bottom: 0px;
     margin-top: 20px;
 
-    color: #2d2d2d;
+    color: #70757a;
 
     cursor: pointer;
+}
+
+.advertising:hover {
+    text-decoration: underline;
 }
 
 .business {
@@ -331,9 +351,13 @@ div.inputWithIcon {
     margin-bottom: 0px;
     margin-top: 20px;
 
-    color: #2d2d2d;
+    color: #70757a;
 
     cursor: pointer;
+}
+
+.business:hover {
+    text-decoration: underline;
 }
 
 .how_search_works {
@@ -344,9 +368,13 @@ div.inputWithIcon {
     margin-bottom: 0px;
     margin-top: 20px;
 
-    color: #2d2d2d;
+    color: #70757a;
 
     cursor: pointer;
+}
+
+.how_search_works:hover {
+    text-decoration: underline;
 }
 
 .bottom_right {
@@ -365,7 +393,13 @@ div.inputWithIcon {
     margin-bottom: 0px;
     margin-top: 20px;
 
+    color: #70757a;
+
     cursor: pointer;
+}
+
+.privacy:hover {
+    text-decoration: underline;
 }
 
 .terms {
@@ -375,7 +409,13 @@ div.inputWithIcon {
     margin-bottom: 0px;
     margin-top: 20px;
 
+    color: #70757a;
+
     cursor: pointer;
+}
+
+.terms:hover {
+    text-decoration: underline;
 }
 
 .settings {
@@ -385,5 +425,11 @@ div.inputWithIcon {
     margin-bottom: 0px;
     margin-top: 20px;
 
+    color: #70757a;
+
     cursor: pointer;
+}
+
+.settings:hover {
+    text-decoration: underline;
 }

@@ -1,2 +1,6 @@
-# google_homepage
-google homepage/landing page
+# Google homepage layout in CSS
+
+
+
+
+![](Google-Homepage.gif)
